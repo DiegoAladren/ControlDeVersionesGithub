@@ -15,3 +15,6 @@ public class Archivo2 {
     public int generarNumeroAleatorioDesde1(int max) {
         return random.nextInt(max) + 1;
     }
+    public int generarNumeroAleatorioEntre0y100() {
+        return random.nextInt(101);
+    }
