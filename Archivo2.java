@@ -12,3 +12,6 @@ public class Archivo2 {
      public int generarNumeroAleatorioMaximo(int max) {
         return random.nextInt(max + 1);
     }
+    public int generarNumeroAleatorioDesde1(int max) {
+        return random.nextInt(max) + 1;
+    }
