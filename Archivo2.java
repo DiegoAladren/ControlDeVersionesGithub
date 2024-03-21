@@ -9,3 +9,6 @@ public class Archivo2 {
     public int generarNumeroAleatorio(int min, int max) {
         return random.nextInt(max - min + 1) + min;
     }
+     public int generarNumeroAleatorioMaximo(int max) {
+        return random.nextInt(max + 1);
+    }
