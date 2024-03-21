@@ -1,5 +1,4 @@
 public class Calculadora {
-    public static void main(String[] args) {
 
     double numero1;
     double numero2;
@@ -13,6 +12,10 @@ public class Calculadora {
     public double suma() {
         return this.numero1 + this.numero2;
     }
+
+    public double resta(){
+
+        return this.numero1 - this.numero2;
+    }
   
   }
-}
