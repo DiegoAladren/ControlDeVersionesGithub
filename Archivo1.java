@@ -22,5 +22,10 @@ public class Calculadora {
 
         return this.numero1 * this.numero2;
     }
+
+    public double dvision(){
+
+        return this.numero1 / this.numero2;
+    }
   
   }
