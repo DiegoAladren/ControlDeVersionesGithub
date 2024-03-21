@@ -17,5 +17,10 @@ public class Calculadora {
 
         return this.numero1 - this.numero2;
     }
+
+    public double multiplicacion(){
+
+        return this.numero1 * this.numero2;
+    }
   
   }
