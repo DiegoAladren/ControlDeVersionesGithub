@@ -46,5 +46,12 @@ public class Calculadora {
     public double calcularPotencia(double numero1, double numero2) {
         return Math.pow(numero1, numero2);
     }
+      public double raizCuadrada(double a) {
+        if (a >= 0) {
+            return Math.sqrt(a);
+        } else {
+            throw new IllegalArgumentException("No se puede calcular la raíz cuadrada de un número negativo");
+        }
+    }
   
   }
