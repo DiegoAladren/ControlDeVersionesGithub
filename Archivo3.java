@@ -9,6 +9,8 @@ public class Persona {
         this.edad = edad;
         this.dni = dni;
     }
-
+     public void setNombre(String nombre) {
+        System.out.println(this.nombre);
+     }
     
 }
