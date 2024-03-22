@@ -8,4 +8,8 @@ public class Persona {
         this.edad = edad;
         this.dni = dni;
     }
+      public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
 }
