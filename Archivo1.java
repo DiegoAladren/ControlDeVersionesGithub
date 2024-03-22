@@ -43,5 +43,8 @@ public class Calculadora {
     public void setNumero2(double numero2) {
         this.numero2 = numero2;
     }
+    public double calcularPotencia(double numero1, double numero2) {
+        return Math.pow(numero1, numero2);
+    }
   
   }

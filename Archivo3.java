@@ -9,8 +9,15 @@ public class Persona {
         this.edad = edad;
         this.dni = dni;
     }
-     public void setNombre(String nombre) {
+
+      public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+
+     public void printNombre(String nombre) {
         System.out.println(this.nombre);
      }
     
+
 }
